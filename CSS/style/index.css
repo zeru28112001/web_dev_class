@@ -1,0 +1,132 @@
+/* selector{
+    property: value;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* selector => tag name, classname, id */
+
+/* externalcss */
+/* h1{
+    color: green;
+} */
+
+/* p{
+    color: red;
+} */
+
+/* class name ဆိုရင် . နဲ့ classname ရေးရတယ်  */
+
+/* .para1, .para3, .para2{
+    color: blue;
+} */
+
+/* 
+.div2 .para1{
+    color: purple;
+}
+
+.div1 p{
+    color: blue;
+} */
+
+
+/* Id ဆိုရင် # နဲ့ id name ရေးရတယ်  */
+
+/* #div1 p {
+    color:red;
+} */
+
+#div1 h1 {
+    color:orange;
+}
+/* * နဲ့ body ဆိုရင် အားလုံးကို ရည်ညွှန်းတာပါ  */ 
+/* *{
+    background-color: yellow;
+} */
+
+/* body{
+    background-color: black;
+} */
+
+
+/* color, background-color, font-size, font-family, text-align, 
+text-decoration, border, margin, padding, width, height, display, position, 
+float, clear, overflow, z-index, opacity, box-shadow, transition, transform, font-weight */
+
+/* .div1 {
+    background-color: yellow;
+} */
+
+/* rgb(255,255,255) */
+/* rgba(255,255,255,0.5)  => opacity 50% */
+/* 
+#div1 {
+    background-color: yellow;
+} */
+
+/* #div1 p{
+    font-size: 20px;
+    /* background-color: green; */
+    /*font-family: serif;*//* default font */
+    /*font-family: "Redaction 50";*/
+/*}*/
+
+
+/* text-align -> left, center, right, justify */
+/* default value - left */
+/* .para3{
+    text-align: left;
+}
+
+#div1 .para1{
+    text-align: center;
+}
+
+.para2{
+    text-align: right;
+} */
+
+/* text-decoration -> none, underline, overline, line-through */
+#div1 .para1{
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    text-decoration: none;
+}
+
+/*text-decoration: none: -> a tag တွေမှာ underline မပါအောင် လုပ်ချင်ရင် သုံးနိုင်တယ်  */
+
+a{
+    text-decoration: none;
+    color:red;
+}
+    /* border:1px dashed black;
+    border:1px dotted black;
+    border:5px double black; */
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+}
+
+.div3{
+    background-color: green;
+}
+
+.div3 p{
+    background-color: yellow;
+    margin: 20px 30px;
+}
+
+
+
+
+
+
