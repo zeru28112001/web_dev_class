@@ -1,0 +1,40 @@
+/* .div1{
+    display: flex; */
+    /* background-color: green; */
+    /* justify-content: center;
+    align-items: center;
+    height: 50px;
+} */
+ /* div{ */
+    /* width: 30%; */
+    /* background-color: rgb(236, 236, 71); */
+    /* margin-top: 10px; */
+    /* margin:0 10px; */
+    /* text-align: center; */
+    /* padding: 10px; */
+/* } */
+
+/* .div2{
+    display: flex;
+    width: 100%;
+} */
+
+.nav_div{
+    display: flex;
+    /* display flex -> justify-content, align-items */
+    /* justify-content left, right ဘေးဘယ်ညာလုပ်တယ် -> start, center, end  */
+    /* align-items top, bottom လုပ်တယ် -> start, center, end */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* space-between က  ဘေးဆုံးကို နှစ်ခုကန်ချင်တာ  */
+    /* space-arount က  ဘေးဆုံးကို ညီတူညီမျှ ကန်တာ */
+    padding: 0 30px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav p{
+    margin: 0 30px;
+}
